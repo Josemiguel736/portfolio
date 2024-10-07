@@ -6,13 +6,13 @@
     --secondary-brand-color:#041f8b;
     --tertiary-brand-color:#ffae00;
     --main-text-color:rgb(0, 0, 0);
+    --secondary-text-color:rgb(255, 244, 244);
     --border-color:#4b5563;
     font-size: 16px;
     font-family: var(--main-font-family);
 
     h1{
-        margin: 0;
-        
+        margin: 0;        
         font-size: 50px;
     }
 
@@ -27,8 +27,6 @@
         margin-bottom: 1rem;
         font-size:18px;
     }
-
-
 }
 
 * {
