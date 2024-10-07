@@ -1,0 +1,10 @@
+.button{
+    text-decoration: none;
+    
+        color: var(--main-text-color);
+        text-decoration: none;
+        padding: 0.8rem;
+        display: inline-block;
+        
+    
+}
