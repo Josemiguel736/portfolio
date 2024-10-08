@@ -1,0 +1,18 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-image: url("../assets/app/mobile-texture.jpg");
+    background-size: cover;
+    
+    
+
+    img{
+        margin:0.3rem 1rem;
+        max-width: 50px;
+    }
+
+    
+
+   
+ }
+ 
