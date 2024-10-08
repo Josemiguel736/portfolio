@@ -11,9 +11,10 @@
     margin: 0 auto;
     margin-top: 1rem;     
     text-align: center;
-    
+
     p{
         margin: 0 2rem 1rem ;
         max-width: 35rem;
+        min-width: 300px;
     }
 }
