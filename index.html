@@ -54,7 +54,7 @@
     </section>
 
     <main>
-        <section class="about_me">
+        <section class="about_me main-bg">
             <div class="contain">
                 <h1>Acerca de mí</h1>
                 <div class="about-text">
@@ -90,19 +90,19 @@
         </div>
         </section>
     </main>
-    <section>
-        <div>
-            <h2>Hablemos!</h2>
+    <section class="main-bg">
+        <div class="contain">
+            <h1>Hablemos!</h1>
             <form method="post" action="contact.user">
                 <div class="form_element">
                     <label for="name">Nombre</label>
                     <input class="input" type="text" id="name" placeholder="Nombre" autocomplete="given-name" required>
                 </div>
-                <div class="form_element"></div>
+                <div class="form_element">
                     <label for="last_name">Apellidos</label>
                     <input class="input" type="text" id="last_name" placeholder="Apellidos" autocomplete="family-name" required>
                 </div>
-                <div class="form_element"></div>
+                <div class="form_element">
                     <label for="tel">Número de teléfono (000-000-000)</label>
                     <input class="input" type="tel" id="tel" placeholder="(000-000-000)" autocomplete="tel" 
                     pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" title="Formato adecuado 000-000-000" required>
@@ -111,19 +111,19 @@
                     <legend>¿Cómo me conociste?</legend>
                     <div>
                         <label for="university">Universidad</label>
-                        <input type="radio" name="know" id="university" value="Universidad" checked required>
+                        <input class="input" type="radio" name="know" id="university" value="Universidad" checked required>
                     </div>
                     <div>
                         <label for="keepcoding">Keepcoding kick-off</label>
-                        <input type="radio" name="know" id="keepcoding" value="KeepCoding">
+                        <input class="input" type="radio" name="know" id="keepcoding" value="KeepCoding">
                     </div>
                     <div>
                         <label for="colegio">Colegio</label>
-                        <input type="radio" name="know" id="colegio" value="Colegio">
+                        <input class="input" type="radio" name="know" id="colegio" value="Colegio">
                     </div>
                     <div>
                         <label for="github">Github</label>
-                        <input type="radio" name="know" id="github" value="Github">
+                        <input class="input" type="radio" name="know" id="github" value="Github">
                     </div>
                 </fieldset>
                     <div class="form_element">
@@ -138,8 +138,8 @@
                     </div>
                     <div class="form_element">
                         <div>
-                        <label>Acceso a la newsletter</label>
-                        <input type="checkbox" id="newsletter" name="newsletter">
+                        <label for="newsletter">Acceso a la newsletter</label>
+                        <input class="input" type="checkbox" id="newsletter" name="newsletter">
                     </div>
                     </div>
                     <div class="form_element">
@@ -147,9 +147,11 @@
                         <button class="btn secondary" type="Reset">Reset</button>
                         <button class="btn" type="submit">Guardar</button>
                     </div>
-                    </div>
-                
+                    </div>                
             </form>
+            <footer class="footer">
+
+            </footer>
 
         </div>
 

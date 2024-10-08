@@ -10,6 +10,8 @@
     --border-color:#4b5563;
     font-size: 16px;
     font-family: var(--main-font-family);
+    color: var(--main-text-color);
+    background-color: var(--bg-color);
 
     h1{
         margin: 0;        
@@ -33,13 +35,12 @@
     box-sizing: border-box;
   }
 
-  .main-bg {
-  
-    background-color: var(--bg-color);
-    font-family: var(--main-font-family);
-    color: var(--main-text-color);
-    opacity: 1;
+  .main-bg {    
+    display: flex;
+    align-items: center;  
+    flex-direction: column;   
+    }
    
-   }
+   
 
 
