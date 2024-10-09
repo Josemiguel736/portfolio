@@ -1,35 +1,51 @@
 .portfolio {
     width: 90%;
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 1rem auto;
     margin-bottom: 2rem;
     text-align: center;
+    
+    
 }
 
 .portfolio img {
     width: 100%;
     height: auto;
+    border-radius: 7%;
+    
 }
+
+
 
 .video {
     width: 50%;
     position: relative;
     margin-bottom: 2rem;
+    
 }
+
+
 
 .video::after {
     content: "";
     display: block;
-    padding-bottom: 156.25%; 
+    padding-bottom: 156.25%;
+     
 }
 
 .youtube {
     position: absolute;
     width: 100%;
     height: 100%;
+    opacity: 1;
+    animation: fade 2s linear;
+    animation-fill-mode: forwards;
 }
 
+
+
 .list {
+    
     list-style: none;
     padding: 0;
     margin: 0;
@@ -39,16 +55,48 @@
 }
 
 .list figure {
+    
     margin: 0;
     padding: 0;
 }
 
 @media screen and (width > 768px) {
+    body{
+        background-image: url("../assets/app/mobile-texture.jpg");
+        background-size: cover;
+
+    }
+
     .portfolio .list {
         grid-template-columns: 1fr 1fr 1fr;
     }
     
     .video::after {
         padding-bottom: 56.25%;
+
     }
+
+    .portfolio img {
+        transition: all;
+        transition-duration: 0.5s;
+    }
+
+    .portfolio img:hover {
+        border: 5px solid var(--secondary-brand-color);
+        padding: 16px;
+        
+        transform: scale(10px 10px);
+    }
+
 }
+
+@media screen and (prefers-reduced-motion: no-preference) {
+
+    @keyframes fade {
+      0% {
+        opacity: 0;        
+      }
+      100% {
+        opacity: 1;
+      }
+    } }

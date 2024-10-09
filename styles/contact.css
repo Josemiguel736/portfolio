@@ -99,13 +99,31 @@
         .btn{
             margin-top: -10px;
             cursor: pointer ;
+            transition: all;
+            transition-duration: 1s;
 
         }
         .btn.secondary{
             margin-right: 1rem;
+            
+            
 
         }      
 
     }
+
+    .btn:hover{
+        
+        background-color: var(--tertiary-brand-color);
+        color: black;
+
+    }
+    .btn.secondary:hover{
+        background-color: gray;
+
+        
+        
+
+    }  
     
 }
