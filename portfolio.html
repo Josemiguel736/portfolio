@@ -1,71 +1,83 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/header.css">
-    <link rel="stylesheet" href="styles/common.css">
-    <link rel="stylesheet" href="styles/portfolio.css">
-    <link rel="stylesheet" href="styles/footer.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/common.css">
+  <link rel="stylesheet" href="styles/portfolio.css">
+  <link rel="stylesheet" href="styles/footer.css">
+  <link rel="stylesheet" href="styles/header.css">
 </head>
+
 <body>
-    <header class="header">    
-      <a href="index.html#inicio"><img class="image" src="assets/logo/logo sin nombre.png" alt="Jose Miguel branding logo"></a>
-        <nav class="nav hidden">
-           <div>
-               <ul class="list">
-                   <li class="item">
-                       <a class="header-button" href="index.html#inicio">Inicio</a>
-                   </li>
-                   <li class="item">
-                       <a class="header-button" href="index.html#about_me">Sobre mí</a>
-                   </li>
-                   <li class="item">
-                       <a class="header-button" href="#portfolio">Portfolio</a>
-                   </li>
-                   <li class="item">
-                       <a class="header-button" href="index.html#contact">Contacto</a>
-                   </li>                
-                   <li class="item">
-                       <a class="header-button" href="#rrss">Mis redes</a>
-                   </li>
-                   
-               </ul>
-           </div>
-        </nav>     
-       </header>
-    <main>
-    
-        <section id="portfolio" class="portfolio">
-            <section class="video">
-                <iframe class="youtube" src="https://www.youtube.com/embed/HJ6_PhlB6WQ?si=ouDFnk3a_giFUzSm&autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </section>
-            <section>
-              <h2>Mi portfolio </h2>.
-              <ul class="list">
-                <li>
-                  <figure>
-                    <a href="https://github.com/Josemiguel736/codigo_cesar.git" target="_blank" 
-                    title="Enlace al repositorio Código Cesar de José Miguel Atiénzar en Github"
-                    rel="noopener noreferrer"> <img src="assets/grid/codigo_cesar.jpg" alt="Enlace al repositorio Código Cesar de José Miguel Atiénzar en Github" 
-                    srcset="assets/grid/responsive_grid/codigo_cesar/codigo_cesar_oz3nql_c_scale,w_200.jpg 200w,
+  <header class="header">
+    <nav class="nav ">
+      <a href="#inicio"> <img class="image" src="assets/logo/logo sin nombre.png" alt="Jose Miguel branding logo"></a>
+      <label class="lable_burger" for="burger_menu">
+        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="list_icon"
+          viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+        </svg>
+      </label>
+      <input class="hidden_burger" type="checkbox" name="" id="burger_menu">
+      <ul class="list">
+        <li class="item">
+          <a class="header-button" href="index.html#inicio">Inicio</a>
+        </li>
+        <li class="item">
+          <a class="header-button" href="index.html#about_me">Sobre mí</a>
+        </li>
+        <li class="item">
+          <a class="header-button" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="item">
+          <a class="header-button" href="index.html#contact">Contacto</a>
+        </li>
+        <li class="item">
+          <a class="header-button" href="#rrss">Mis redes</a>
+        </li>
+
+      </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+
+    <section id="portfolio" class="portfolio">
+      <section class="video">
+        <iframe class="youtube" src="https://www.youtube.com/embed/HJ6_PhlB6WQ?si=ouDFnk3a_giFUzSm&autoplay=1&mute=1"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </section>
+      <section>
+        <h2>Mi portfolio </h2>.
+        <ul class="grid-list">
+          <li>
+            <figure>
+              <a href="https://github.com/Josemiguel736/codigo_cesar.git" target="_blank"
+                title="Enlace al repositorio Código Cesar de José Miguel Atiénzar en Github" rel="noopener noreferrer">
+                <img src="assets/grid/codigo_cesar.jpg"
+                  alt="Enlace al repositorio Código Cesar de José Miguel Atiénzar en Github" srcset="assets/grid/responsive_grid/codigo_cesar/codigo_cesar_oz3nql_c_scale,w_200.jpg 200w,
                     assets/grid/responsive_grid/codigo_cesar_oz3nql/codigo_cesar_oz3nql_c_scale,w_485.jpg 485w,
                     assets/grid/responsive_grid/codigo_cesar_oz3nql/codigo_cesar_oz3nql_c_scale,w_669.jpg 669w,
                     assets/grid/responsive_grid/codigo_cesar_oz3nql/codigo_cesar_oz3nql_c_scale,w_832.jpg 832w,
                     assets/grid/responsive_grid/codigo_cesar_oz3nql/codigo_cesar_oz3nql_c_scale,w_997.jpg 997w,
                     assets/grid/responsive_grid/codigo_cesar_oz3nql/codigo_cesar_oz3nql_c_escala,w_1140.jpg 1140w,
                     assets/grid/responsive_grid/codigo_cesar_oz3nql/codigo_cesar_oz3nql_c_scale,w_1152.jpg 1152w"></a>
-                    <figcaption>Código Cesar</figcaption>
-                  </figure>
-                </li>
-                <li>
-                  <figure>
-                    <a href="https://github.com/Josemiguel736/concatenadorDeVideos.git" target="_blank" 
-                    title="Enlace al repositorio Concatenador de vídeos de José Miguel Atiénzar en Github"
-                    rel="noopener noreferrer"><img src="assets/grid/concatenador.jpg" alt="Enlace al repositorio Concatenador de vídeos de José Miguel Atiénzar en Github" 
-                        srcset="
+              <figcaption>Código Cesar</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a href="https://github.com/Josemiguel736/concatenadorDeVideos.git" target="_blank"
+                title="Enlace al repositorio Concatenador de vídeos de José Miguel Atiénzar en Github"
+                rel="noopener noreferrer"><img src="assets/grid/concatenador.jpg"
+                  alt="Enlace al repositorio Concatenador de vídeos de José Miguel Atiénzar en Github" srcset="
                         assets/grid/responsive_grid/concatenador/concatenador_vazdvp_c_scale,w_200.jpg 200w,
                         assets/grid/responsive_grid/concatenador/concatenador_vazdvp_c_scale,w_472.jpg 472w,
                         assets/grid/responsive_grid/concatenador/concatenador_vazdvp_c_scale,w_648.jpg 648w,
@@ -73,16 +85,16 @@
                         assets/grid/responsive_grid/concatenador/concatenador_vazdvp_c_scale,w_976.jpg 976w,
                         assets/grid/responsive_grid/concatenador/concatenador_vazdvp_c_scale,w_1113.jpg 1113w,
                         assets/grid/responsive_grid/concatenador/concatenador_vazdvp_c_scale,w_1152.jpg 1152w"></a>
-                    <figcaption>Concatenador de vídeos</figcaption>
-                  </figure>
-                </li>
-      
-                <li>
-                  <figure>
-                    <a href="https://github.com/Josemiguel736/javascript_game.git" target="_blank" 
-                    title="Enlace al repositorio Javascript Game de José Miguel Atiénzar en Github"
-                    rel="noopener noreferrer"><img src="assets/grid/game.jpg" alt="Enlace al repositorio Javascript Game de José Miguel Atiénzar en Github" 
-                    srcset="
+              <figcaption>Concatenador de vídeos</figcaption>
+            </figure>
+          </li>
+
+          <li>
+            <figure>
+              <a href="https://github.com/Josemiguel736/javascript_game.git" target="_blank"
+                title="Enlace al repositorio Javascript Game de José Miguel Atiénzar en Github"
+                rel="noopener noreferrer"><img src="assets/grid/game.jpg"
+                  alt="Enlace al repositorio Javascript Game de José Miguel Atiénzar en Github" srcset="
                     assets/grid/responsive_grid/game/game_vubp48_c_scale,w_200,w_200.jpg 200w,
                     assets/grid/responsive_grid/game/game_vubp48_c_scale,w_414.jpg 414w,
                     assets/grid/responsive_grid/game/game_vubp48_c_scale,w_566.jpg 566w,
@@ -96,10 +108,10 @@
       
                 <li>
                   <figure>
-                    <a href="https://github.com/Josemiguel736/Practica_Introduccion_a_Javascript.git" target="_blank" 
-                    title="Enlace al repositorio Práctica JavaScript de José Miguel Atiénzar en Github"
-                    rel="noopener noreferrer"><img src="assets/grid/javascript.jpg" alt="Enlace al repositorio Práctica JavaScript de José Miguel Atiénzar en Github" 
-                    srcset="
+                    <a href=" https://github.com/Josemiguel736/Practica_Introduccion_a_Javascript.git" target="_blank"
+                  title="Enlace al repositorio Práctica JavaScript de José Miguel Atiénzar en Github"
+                  rel="noopener noreferrer"><img src="assets/grid/javascript.jpg"
+                  alt="Enlace al repositorio Práctica JavaScript de José Miguel Atiénzar en Github" srcset="
                     assets/grid/responsive_grid/javascript/javascript_smnqj4_c_scale,w_200.jpg 200w,
                     assets/grid/responsive_grid/javascript/javascript_smnqj4_c_scale,w_417.jpg 417w,
                     assets/grid/responsive_grid/javascript/javascript_smnqj4_c_scale,w_670.jpg 670w,
@@ -107,67 +119,63 @@
                     assets/grid/responsive_grid/javascript/javascript_smnqj4_c_scale,w_938.jpg 938w,
                     assets/grid/responsive_grid/javascript/javascript_smnqj4_c_scale,w_1069.jpg 1069w,
                     assets/grid/responsive_grid/javascript/javascript_smnqj4_c_scale,w_1152.jpg 1152w"></a>
-                    <figcaption>Práctica de Javascript</figcaption>
-                  </figure>
-                </li>
-                <li>
-                    <figure>
-                      <a href="https://github.com/Josemiguel736/resolucion-de-problemas-con-poo-y-tdd.git" target="_blank" 
-                      title="Enlace al repositorio Resolución de problemas con TDD y OPP de José Miguel Atiénzar en Github"
-                      rel="noopener noreferrer"><img src="assets/grid/tdd.jpg" alt="Resolución de problemas con TDD y OPP" 
-                      srcset=
-                      "assets/grid/responsive_grid/tdd/tdd_lo9p55_c_scale,w_200.jpg 200w,
+              <figcaption>Práctica de Javascript</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a href="https://github.com/Josemiguel736/resolucion-de-problemas-con-poo-y-tdd.git" target="_blank"
+                title="Enlace al repositorio Resolución de problemas con TDD y OPP de José Miguel Atiénzar en Github"
+                rel="noopener noreferrer"><img src="assets/grid/tdd.jpg" alt="Resolución de problemas con TDD y OPP"
+                  srcset="assets/grid/responsive_grid/tdd/tdd_lo9p55_c_scale,w_200.jpg 200w,
                       assets/grid/responsive_grid/tdd/tdd_lo9p55_c_scale,w_443.jpg 443w,
                       assets/grid/responsive_grid/tdd/tdd_lo9p55_c_scale,w_626.jpg 626w,
                       assets/grid/responsive_grid/tdd/tdd_lo9p55_c_scale,w_781.jpg 781w,
                       assets/grid/responsive_grid/tdd/tdd_lo9p55_c_scale,w_907.jpg 907w,
                       assets/grid/responsive_grid/tdd/tdd_lo9p55_c_scale,w_1086.jpg 1086w,
                       assets/grid/responsive_grid/tdd/tdd_lo9p55_c_scale,w_1152.jpg 1152w"></a>
-                      <figcaption>Probelmas con TDD y OPP</figcaption>
-                    </figure>
-                  </li>
-                  <li>
-                    <figure>
-                      <a href="https://github.com/Josemiguel736/zoo_ss.git" target="_blank" 
-                      title="Enlace al repositorio Zoo con Simpre Screen de José Miguel Atiénzar en Github"
-                      rel="noopener noreferrer"><img src="assets/grid/zoo.jpg" alt="Enlace al repositorio Zoo con Simpre Screen de José Miguel Atiénzar en Github" 
-                      srcset=
-                      "assets/grid/responsive_grid/zoo/zoo_j2p9rv_c_scale,w_200.jpg 200w,
+              <figcaption>Probelmas con TDD y OPP</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a href="https://github.com/Josemiguel736/zoo_ss.git" target="_blank"
+                title="Enlace al repositorio Zoo con Simpre Screen de José Miguel Atiénzar en Github"
+                rel="noopener noreferrer"><img src="assets/grid/zoo.jpg"
+                  alt="Enlace al repositorio Zoo con Simpre Screen de José Miguel Atiénzar en Github" srcset="assets/grid/responsive_grid/zoo/zoo_j2p9rv_c_scale,w_200.jpg 200w,
                       assets/grid/responsive_grid/zoo/zoo_j2p9rv_c_scale,w_450.jpg 450w,
                       assets/grid/responsive_grid/zoo/zoo_j2p9rv_c_scale,w_637.jpg 637w,
                       assets/grid/responsive_grid/zoo/zoo_j2p9rv_c_scale,w_784.jpg 784w,
                       assets/grid/responsive_grid/zoo/zoo_j2p9rv_c_scale,w_944.jpg 944w,
                       assets/grid/responsive_grid/zoo/zoo_j2p9rv_c_scale,w_1081.jpg 1081w,
                       assets/grid/responsive_grid/zoo/zoo_j2p9rv_c_scale,w_1152.jpg 1152w"></a>
-                      <figcaption>Zoo con Simpre Screen</figcaption>
-                    </figure>
-                  </li>
-      
-              </ul>
-            </section>       
-    </main>
+              <figcaption>Zoo con Simpre Screen</figcaption>
+            </figure>
+          </li>
 
-    <footer class="footer" id="rrss">
-        <div class="img-link">            
-           <a href="https://github.com/Josemiguel736" target="_blank" 
-           title="Enlace al Github de José Miguel Atiénzar"
-           rel="noopener noreferrer"> 
-           <img src="assets/app/logo github.png" alt="Github José Miguel Atiénzar " srcset=""></a>
-        
-                
-            <a href="https://www.instagram.com/josemiguelatienzar/?hl=en" target="_blank" 
-            title="Enlace al Instagram de José Miguel Atiénzar"
-            rel="noopener noreferrer"> 
-            <img src="assets/app/logo instagram.png" alt="Instagram José Miguel Atiénzar " srcset=""></a>
-         
-                    
-            <a href="https://www.linkedin.com/in/jos%C3%A9-miguel-ati%C3%A9nzar-heras-3a7302261/" target="_blank" 
-            title="Enlace al Linkedin de José Miguel Atiénzar"
-            rel="noopener noreferrer"> 
-            <img src="assets/app/logo linkedin.png" alt="Linkedin José Miguel Atiénzar " srcset=""></a>
-         </div>
+        </ul>
+      </section>
+  </main>
 
-    </footer>
-    
+  <footer class="footer" id="rrss">
+    <div class="img-link">
+      <a href="https://github.com/Josemiguel736" target="_blank" title="Enlace al Github de José Miguel Atiénzar"
+        rel="noopener noreferrer">
+        <img src="assets/app/logo github.png" alt="Github José Miguel Atiénzar " srcset=""></a>
+
+
+      <a href="https://www.instagram.com/josemiguelatienzar/?hl=en" target="_blank"
+        title="Enlace al Instagram de José Miguel Atiénzar" rel="noopener noreferrer">
+        <img src="assets/app/logo instagram.png" alt="Instagram José Miguel Atiénzar " srcset=""></a>
+
+
+      <a href="https://www.linkedin.com/in/jos%C3%A9-miguel-ati%C3%A9nzar-heras-3a7302261/" target="_blank"
+        title="Enlace al Linkedin de José Miguel Atiénzar" rel="noopener noreferrer">
+        <img src="assets/app/logo linkedin.png" alt="Linkedin José Miguel Atiénzar " srcset=""></a>
+    </div>
+
+  </footer>
+
 </body>
+
 </html>

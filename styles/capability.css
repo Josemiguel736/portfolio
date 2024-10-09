@@ -21,19 +21,20 @@
     --animation-color:rgb(255, 136, 0);
 }
 
-.p20{
+.p20{--duration:1.5s;
     --progress:20%; 
 }
 
-.p30{
+.p30{--duration:2s;
     --progress:30%;
 }
 
-.p50{
+.p50{--duration:5s;
     --progress:50%; 
 }
 
 .p100{
+    --duration:6s;
     --progress:100%
 }
 
@@ -59,7 +60,7 @@
     height: 48px;
     background-color: var(--animation-color);
     box-shadow: 0 0 10px gray;
-    animation: progress 3s linear;
+    animation: progress var(--duration) linear;
     animation-fill-mode: forwards;
    
     

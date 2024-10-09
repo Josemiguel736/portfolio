@@ -44,7 +44,7 @@
 
 
 
-.list {
+.grid-list {
     
     list-style: none;
     padding: 0;
@@ -54,7 +54,7 @@
     gap: 10px;
 }
 
-.list figure {
+.grid-list figure {
     
     margin: 0;
     padding: 0;
@@ -67,7 +67,7 @@
 
     }
 
-    .portfolio .list {
+    .portfolio .grid-list {
         grid-template-columns: 1fr 1fr 1fr;
     }
     
