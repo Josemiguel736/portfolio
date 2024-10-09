@@ -9,6 +9,17 @@
 
 }
 
+.javascript{
+    --animation-color:rgb(215, 231, 70);
+}
+
+.css{
+    --animation-color:rgb(0, 47, 255);
+}
+
+.html{
+    --animation-color:rgb(255, 136, 0);
+}
 
 .p20{
     --progress:20%; 
@@ -34,6 +45,7 @@
     margin-top: 0.5rem;
     margin-left: 0.5rem;
     color: var(--secondary-text-color);
+    text-shadow: 0px 3px 10px rgba(0, 0, 0, 0.589);
     
 }
 .bar{    
@@ -45,7 +57,7 @@
 .progress-value{
     width: var(--progress);
     height: 48px;
-    background-color: var(--secondary-brand-color);
+    background-color: var(--animation-color);
     box-shadow: 0 0 10px gray;
     animation: progress 3s linear;
     animation-fill-mode: forwards;
