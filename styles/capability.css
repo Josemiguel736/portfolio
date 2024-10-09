@@ -47,7 +47,7 @@
     height: 48px;
     background-color: var(--secondary-brand-color);
     box-shadow: 0 0 10px gray;
-    animation: progress 5s linear;
+    animation: progress 3s linear;
     animation-fill-mode: forwards;
    
     

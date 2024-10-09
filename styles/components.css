@@ -1,13 +1,13 @@
 .button{
     text-decoration: none;
-    width: 7rem;        
+    width: 10rem;        
     border-radius: 50px;
     padding: 3px;
     color: white;
     font-size: 0.9rem;
     text-align: center;
-    margin-left: 1rem;
-    margin-bottom: 3rem;     
+    
+    margin-bottom: 1rem;     
     background-color: var(--secondary-brand-color);
     text-decoration: none;
     padding: 0.8rem;
@@ -21,3 +21,7 @@
     width: 10rem;
 }
 
+
+.about:hover{    
+    background-color: grey;
+}
