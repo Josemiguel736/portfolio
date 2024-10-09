@@ -20,3 +20,92 @@
     }
     
 }
+
+.btn{
+    border-radius: 10%;
+    color: white;
+    padding: 5px 10px;
+    background-color: blue;
+}
+
+
+@media screen and (width > 768px) {
+
+    .contain{
+        margin: 2rem auto;
+        h1{
+            margin-bottom: 1rem;
+        }
+        
+        
+    }
+
+    .formulario{
+        
+        display: grid;
+        grid-template-columns: 15vh 15vh 15vh 15vh  ;
+        grid-template-rows: 80px 80px 105px 65px 80px  ; 
+        gap: 4px 10px;
+        
+        justify-content: center;
+        
+
+        grid-template-areas:
+        "last_name last_name name name "
+        "phone_number phone_number git_tag git_tag"
+        "know know about about"
+        "know know about about"
+        "newsletter newsletter buttons buttons ";     
+               
+        
+        }
+
+    #name{
+        grid-area: name;
+        }
+
+    #last_name{
+        grid-area: last_name;
+    }
+
+    #phone_number{
+        grid-area: phone_number;
+    }
+
+    #git_tag{
+        grid-area: git_tag;
+    }
+
+    #know{
+        grid-area: know;
+    }
+
+    #about{
+        grid-area: about;
+    }
+
+    #news-letter{
+        grid-area: newsletter;
+        align-items: center;
+        margin-top: -6px;
+        
+    }
+
+    #buttons{
+        
+        grid-area: buttons;
+        align-items: center;
+        
+        .btn{
+            margin-top: -10px;
+            cursor: pointer ;
+
+        }
+        .btn.secondary{
+            margin-right: 1rem;
+
+        }      
+
+    }
+    
+}

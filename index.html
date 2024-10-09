@@ -99,21 +99,21 @@
     <section class="main-bg" id="contact">
         <div class="contain">
             <h1>Hablemos!</h1>
-            <form method="post" action="contact.user">
-                <div class="form_element">
+            <form class="formulario" method="post" action="contact.user">
+                <div class="form_element" id="name">
                     <label for="name">Nombre</label>
                     <input class="input" type="text" id="name" placeholder="Nombre" autocomplete="given-name" required>
                 </div>
-                <div class="form_element">
+                <div class="form_element" id="last_name">
                     <label for="last_name">Apellidos</label>
                     <input class="input" type="text" id="last_name" placeholder="Apellidos" autocomplete="family-name" required>
                 </div>
-                <div class="form_element">
+                <div class="form_element" id="phone_number">
                     <label for="tel">Número de teléfono (000-000-000)</label>
                     <input class="input" type="tel" id="tel" placeholder="(000-000-000)" autocomplete="tel" 
                     pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" title="Formato adecuado 000-000-000" required>
                 </div>
-                <fieldset class="form_element">
+                <fieldset class="form_element" id="know">
                     <legend>¿Cómo me conociste?</legend>
                     <div>
                         <label for="university">Universidad</label>
@@ -132,23 +132,23 @@
                         <input class="input" type="radio" name="know" id="github" value="Github">
                     </div>
                 </fieldset>
-                    <div class="form_element">
+                    <div class="form_element" id="git_tag">
                         <label for="git_tag">Tag de Github</label>
                         <input class="input" type="text" id="git_tag" placeholder="Tag de Github" autocomplete="off"
                         pattern="^@[^\s]+" title="Inserta tu tag de Github ejemplo: @TagDeEjemplo" required>
                     </div>
-                    <div class="form_element">
+                    <div class="form_element" id="about">
                         <label for="info">Un poco sobre ti</label>
                         <textarea class="input" name="contactinfo" id="info" maxlength="180" rows="10" title="Máximo 180 caracteres">
                     </textarea>
                     </div>
-                    <div class="form_element">
+                    <div class="form_element" id="news-letter">
                         <div>
                         <label for="newsletter">Acceso a la newsletter</label>
                         <input class="input" type="checkbox" id="newsletter" name="newsletter">
                     </div>
                     </div>
-                    <div class="form_element">
+                    <div class="form_element" id="buttons">
                         <div>
                         <button class="btn secondary" type="Reset">Reset</button>
                         <button class="btn" type="submit">Guardar</button>
