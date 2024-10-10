@@ -51,7 +51,7 @@
 
 
         grid-template-areas:
-            "last_name last_name name name "
+            "name name last_name last_name "
             "phone_number phone_number git_tag git_tag"
             "know know about about"
             "know know about about"
