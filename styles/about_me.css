@@ -1,63 +1,65 @@
-.about_me{
-    
+.about_me {
+
     background-image: url("../assets/app/mobile-texture.jpg");
     background-position: center;
     background-size: cover;
-     
+
 }
 
-.contain{
+.contain {
     display: block;
     margin: 0 auto;
-    margin-top: 5rem; 
-    margin-bottom: 2rem;    
+    margin-top: 5rem;
+    margin-bottom: 2rem;
     text-align: center;
 
-    p{
-        margin: 0 2rem 1rem ;
+    p {
+        margin: 0 2rem 1rem;
         max-width: 35rem;
-        
+
     }
 }
 
 
-.text-photo-contain{
-    img{
+.text-photo-contain {
+    img {
         display: none;
     }
 
 }
+
 @media screen and (width > 768px) {
 
-    .about_me{
+    .about_me {
         background-image: url("../assets/app/pc-texture.webp");
     }
 
 
-    .text-photo-contain{
+    .text-photo-contain {
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: center ;
+        justify-content: center;
         margin-bottom: 2rem;
         background-color: rgba(235, 235, 231, 0.596);
 
-        img{
+        img {
             display: block;
             width: 20%;
             min-width: 370px;
             overflow: hidden;
-            
-            
+
+
         }
     }
-    .about-text{
+
+    .about-text {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    
+
 
 
 }

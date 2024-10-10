@@ -1,0 +1,89 @@
+.not-found {
+    background-image: url("../assets/app/mobile-texture.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    height: 90vh;
+
+}
+
+.not-found img {
+    border: 5px ridge red;
+    border-radius: 50%;
+    width: 60%;
+    max-height: 480px;
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+.found {
+    margin: 1rem;
+    min-width: 50%;
+    margin-bottom: 1.5rem;
+
+    h1 {
+        font-size: 300%;
+    }
+
+    p {
+        font-size: large;
+    }
+}
+
+@media screen and (width > 768px) {
+
+    .not-found {
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        text-align: center;
+        margin: 0 auto;
+        height: 88vh;
+
+    }
+
+    .not-found img {
+        min-width: 200px;
+        max-width: 500px;
+        margin-left: 0;
+        margin-right: 3rem;
+        border-radius: 2%;
+        border: 1px solid;
+    }
+
+    .found {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 0 3rem;
+
+
+    }
+
+    .text-found {
+        max-width: 50rem;
+        min-width: 25rem;
+
+
+        h1 {
+            font-size: 600%;
+            margin: 0;
+            margin-bottom: 1rem;
+
+        }
+
+        p {
+            font-size: 260%;
+            margin: 0;
+            margin-bottom: 1rem;
+
+
+        }
+    }
+}

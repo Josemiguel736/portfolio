@@ -1,27 +1,26 @@
-
-
-.form_element{
+.form_element {
     display: flex;
     flex-direction: column;
     margin-bottom: 1rem;
     text-align: start;
-    label{
-        margin-bottom: 0.5rem;
-            }
 
-    .input{
+    label {
+        margin-bottom: 0.5rem;
+    }
+
+    .input {
         padding: 1rem;
         border-radius: 5px;
         border: none;
         background-color: whitesmoke;
-        cursor: pointer ;
-        
-               
+        cursor: pointer;
+
+
     }
-    
+
 }
 
-.btn{
+.btn {
     border-radius: 10%;
     color: white;
     padding: 5px 10px;
@@ -31,100 +30,103 @@
 
 @media screen and (width > 768px) {
 
-    .contain{
+    .contain {
         margin: 2rem auto;
-        h1{
+
+        h1 {
             margin-bottom: 1rem;
         }
-        
-        
+
+
     }
 
-    .formulario{
-        
+    .formulario {
+
         display: grid;
-        grid-template-columns: 15vh 15vh 15vh 15vh  ;
-        grid-template-rows: 80px 80px 105px 65px 80px  ; 
+        grid-template-columns: 15vh 15vh 15vh 15vh;
+        grid-template-rows: 80px 80px 105px 65px 80px;
         gap: 4px 10px;
-        
+
         justify-content: center;
-        
+
 
         grid-template-areas:
-        "last_name last_name name name "
-        "phone_number phone_number git_tag git_tag"
-        "know know about about"
-        "know know about about"
-        "newsletter newsletter buttons buttons ";     
-               
-        
-        }
+            "last_name last_name name name "
+            "phone_number phone_number git_tag git_tag"
+            "know know about about"
+            "know know about about"
+            "newsletter newsletter buttons buttons ";
 
-    #name{
+
+    }
+
+    #name {
         grid-area: name;
-        }
+    }
 
-    #last_name{
+    #last_name {
         grid-area: last_name;
     }
 
-    #phone_number{
+    #phone_number {
         grid-area: phone_number;
     }
 
-    #git_tag{
+    #git_tag {
         grid-area: git_tag;
     }
 
-    #know{
+    #know {
         grid-area: know;
     }
 
-    #about{
+    #about {
         grid-area: about;
     }
 
-    #news-letter{
+    #news-letter {
         grid-area: newsletter;
         align-items: center;
         margin-top: -6px;
-        
+
     }
 
-    #buttons{
-        
+    #buttons {
+
         grid-area: buttons;
         align-items: center;
-        
-        .btn{
+
+        .btn {
             margin-top: -10px;
-            cursor: pointer ;
+            cursor: pointer;
             transition: all;
             transition-duration: 1s;
 
         }
-        .btn.secondary{
-            margin-right: 1rem;
-            
-            
 
-        }      
+        .btn.secondary {
+            margin-right: 1rem;
+
+
+
+        }
 
     }
 
-    .btn:hover{
-        
+    .btn:hover {
+
         background-color: var(--tertiary-brand-color);
         color: black;
 
     }
-    .btn.secondary:hover{
+
+    .btn.secondary:hover {
         background-color: gray;
         color: rgb(255, 255, 255);
 
-        
-        
 
-    }  
-    
+
+
+    }
+
 }

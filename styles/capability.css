@@ -1,45 +1,48 @@
-.progress{
-    --progress:0%; 
+.progress {
+    --progress: 0%;
     max-width: 400px;
     height: 50px;
     border: 1px solid rgb(255, 255, 255);
     margin: 1rem auto;
-    box-shadow: 0 0 4px rgb(122, 122, 122) ;
-     
+    box-shadow: 0 0 4px rgb(122, 122, 122);
+
 
 }
 
-.javascript{
-    --animation-color:rgb(215, 231, 70);
+.javascript {
+    --animation-color: rgb(215, 231, 70);
 }
 
-.css{
-    --animation-color:rgb(0, 47, 255);
+.css {
+    --animation-color: rgb(0, 47, 255);
 }
 
-.html{
-    --animation-color:rgb(255, 136, 0);
+.html {
+    --animation-color: rgb(255, 136, 0);
 }
 
-.p20{--duration:1.5s;
-    --progress:20%; 
+.p20 {
+    --duration: 1.5s;
+    --progress: 20%;
 }
 
-.p30{--duration:2s;
-    --progress:30%;
+.p30 {
+    --duration: 2s;
+    --progress: 30%;
 }
 
-.p50{--duration:5s;
-    --progress:50%; 
+.p50 {
+    --duration: 5s;
+    --progress: 50%;
 }
 
-.p100{
-    --duration:6s;
-    --progress:100%
+.p100 {
+    --duration: 6s;
+    --progress: 100%
 }
 
 
-.text{
+.text {
     position: absolute;
     z-index: 20;
     padding: 0 auto;
@@ -47,33 +50,36 @@
     margin-left: 0.5rem;
     color: var(--secondary-text-color);
     text-shadow: 0px 3px 10px rgba(0, 0, 0, 0.589);
-    
-}
-.bar{    
-    background: grey ;
-    height: 100%;
-        
+
 }
 
-.progress-value{
+.bar {
+    background: grey;
+    height: 100%;
+
+}
+
+.progress-value {
     width: var(--progress);
     height: 48px;
     background-color: var(--animation-color);
     box-shadow: 0 0 10px gray;
     animation: progress var(--duration) linear;
     animation-fill-mode: forwards;
-   
-    
-    
+
+
+
 }
 
 @media screen and (prefers-reduced-motion: no-preference) {
 
     @keyframes progress {
-      0% {
-        width: 0%;        
-      }
-      100% {
-        width: var(--progress);
-      }
-    } }
+        0% {
+            width: 0%;
+        }
+
+        100% {
+            width: var(--progress);
+        }
+    }
+}
