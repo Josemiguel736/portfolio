@@ -54,6 +54,8 @@ Para las Páginas 404 y 500 quería hacer algo muy simple pero que tuviera senti
 ## Extra
 Le he agregado un **icono a la página**, y en la página de index también he añadido **metatags** para decorar mejor los enlaces externos que se puedan llevar generar hacia esta página.
 
+También he realizado el despliegue en GitHub Pages, el enlace es el siguiente: https://josemiguel736.github.io/portfolio/index.html
+
 
 
 
